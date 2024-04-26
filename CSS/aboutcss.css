@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	background-color: grey;
+}
+
+nav {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0 0 5px 3px white;
+}
+
+.title {
+	display: inline-block;
+	color: black;
+	font-family: rockwell;
+	position: relative;
+	bottom: 50px;
+	left: 65vh;
+}
+
+.hdt {
+	display: inline-block;
+}
+
+.l1 {
+	position: relative;
+	top: 10px;
+	left: 5px;
+	display: inline-block;
+	height: 10vh;
+	width: 15vh;
+}
+
+.nvi {
+	float: right;
+	position: relative;
+	top: 85px;
+	right: 50px;
+}
+
+a {
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	margin: 1px;
+	padding: 20px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.ac {
+	background-color: grey;
+	padding: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+a:hover {
+	color: black;
+	background-color: grey;
+}
+
+.content {
+	margin-top: 20vh;
+	text-align: center;
+}
+
+.ttle {
+	display: inline-block;
+	border-radius: 15px;
+	background-color: black;
+	font-family: Verdana;
+	font-size: 25px;
+	padding: 20px;
+	color: #ff7720;
+}
+
+.miss,.certi,.histo {
+	display: block;
+	position: relative;
+	left: 32.5%;
+	top: 30px;
+	margin: 50px;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+	width: 28%;
+}
+
+.miss h2,.certi h2.histo h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	
+}
+
+.miss p,.certi ul,.histo p {
+	font-size: 16px;
+	text-align: center;
+	line-height: 2;
+}
+
+.certi ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.certi li {
+	margin-bottom: 5px;
+}
+h2{
+	color: #ff7720;
+}
+@media (max-width: 768px) {
+	.miss,
+	.certi,
+	.histo {
+		display: block;
+		width: auto;
+		margin: 20px auto;
+	}
+}
